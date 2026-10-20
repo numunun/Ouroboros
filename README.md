@@ -185,18 +185,18 @@ ProtocolLib은 추적기 발광에만 씁니다. 없으면 발광만 꺼지고 �
 border:
   shrink:
     phases:
-    - wait: 1800
-      to: 8000.0
-      over: 3600
-    - wait: 600
-      to: 3000.0
-      over: 2400
-    - wait: 600
-      to: 800.0
-      over: 1800
-    - wait: 300
-      to: 200.0
-      over: 900
+      - wait: 1800
+        to: 8000.0
+        over: 3600
+      - wait: 600
+        to: 3000.0
+        over: 2400
+      - wait: 600
+        to: 800.0
+        over: 1800
+      - wait: 300
+        to: 200.0
+        over: 900
 ```
 
 ---
