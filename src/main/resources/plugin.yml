@@ -1,0 +1,15 @@
+name: Ouroboros
+version: '${version}'
+main: numunun.ouroboros.Ouroboros
+api-version: '26.3'
+author: TogetherChannel
+description: 자기 꼬리를 무는 원형 먹이사슬 꼬리잡기
+softdepend: [ProtocolLib]
+
+permissions:
+  ouroboros.admin:
+    description: 게임 시작, 종료, 설정 변경
+    default: op
+  ouroboros.play:
+    description: 게임 참여와 정보 조회
+    default: true
